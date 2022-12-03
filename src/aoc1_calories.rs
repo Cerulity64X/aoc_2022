@@ -46,4 +46,5 @@ pub fn calories() {
     inventories_summed.sort();
     inventories_summed.reverse();
     println!("Biggest calorie count: {}", inventories_summed[0]);
+    println!("Top 3 calorie count: {}", inventories_summed[0] + inventories_summed[1] + inventories_summed[2]);
 }
